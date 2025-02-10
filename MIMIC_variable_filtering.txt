@@ -1,0 +1,833 @@
+**gender**
+- 2: [Weak correlation]
+
+**dod**
+- 3: [Related]
+
+**admittime**
+- 1: [Extremely weakly correlated]
+
+**dischtime**
+- 1: [Extremely weakly correlated]
+
+**los_hospital**
+- 2: [Weak correlation]
+
+**admission_age**
+- 4: [Strongly correlated]
+
+**race**
+- 2: [Weak correlation]
+
+**hospital_expire_flag**
+- 3: [Related]
+
+**hospstay_seq**
+- 1: [Extremely weakly correlated]
+
+**first_hosp_stay**
+- 1: [Extremely weakly correlated]
+
+**icu_intime**
+- 1: [Extremely weakly correlated]
+
+**icu_outtime**
+- 1: [Extremely weakly correlated]
+
+**los_icu**
+- 2: [Weak correlation]
+
+**icustay_seq**
+- 1: [Extremely weakly correlated]
+
+**first_icu_stay**
+- 1: [Extremely weakly correlated]
+
+**marital_status**
+- 2: [Weak correlation]
+
+**icu_expire_flag**
+- 3: [Related]
+
+**weight**
+- 2: [Weak correlation]
+
+**survive_days_from_admittime_null values survived for more than 365 days**
+- 3: [Related]
+
+**dod_28_from_admittime**
+- 3: [Related]
+
+**dod_30_from_admittime**
+- 3: [Related]
+
+**dod_90_from_admittime**
+- 3: [Related]
+
+**dod_365_from_admittime**
+- 3: [Related]
+
+**survive_days_from_icu_intime_null values survived for more than 365 days**
+- 3: [Related]
+
+**dod_28_from_icu_intime**
+- 3: [Related]
+
+**dod_30_from_icu_intime**
+- 3: [Related]
+
+**dod_90_from_icu_intime**
+- 3: [Related]
+
+**dod_365_from_icu_intime**
+- 3: [Related]
+
+**icd_code1**
+- 5: [Highly correlated]
+
+**icd_long_title1**
+- 5: [Highly correlated]
+
+**icd_code2**
+- 5: [Highly correlated]
+
+**icd_long_title2**
+- 5: [Highly correlated]
+
+**icd_code3**
+- 5: [Highly correlated]
+
+**icd_long_title3**
+- 5: [Highly correlated]
+
+**icd_code4**
+- 5: [Highly correlated]
+
+**icd_long_title4**
+- 5: [Highly correlated]
+
+**icd_code5**
+- 5: [Highly correlated]
+
+**icd_long_title5**
+- 5: [Highly correlated]
+
+**icd_code_all**
+- 5: [Highly correlated]
+
+**icd_long_title_all**
+- 5: [Highly correlated]
+
+**procedures_icd_code1**
+- 4: [Strongly correlated]
+
+**procedures_icd_long_title1**
+- 4: [Strongly correlated]
+
+**procedures_icd_code2**
+- 4: [Strongly correlated]
+
+**procedures_icd_long_title2**
+- 4: [Strongly correlated]
+
+**procedures_icd_code3**
+- 4: [Strongly correlated]
+
+**procedures_icd_long_title3**
+- 4: [Strongly correlated]
+
+**procedures_icd_code4**
+- 4: [Strongly correlated]
+
+**procedures_icd_long_title4**
+- 4: [Strongly correlated].
+
+**procedures_icd_code5**
+- 4: [Strongly correlated].
+
+**procedures_icd_long_title5**
+- 4: [Strongly correlated]
+
+**procedures_icd_code_all**
+- 4: [Strongly correlated]
+
+**procedures_icd_long_title_all**
+- 4: [Strongly correlated]
+
+**smoker**
+- 5: [Highly correlated]
+
+**smoking**
+- 5: [Highly correlated]
+
+**alcohol_abuse**
+- 3: [Related]
+
+**hypertension**
+- 3: [Related]
+
+**Type I diabetes**
+- 2: [Weak correlation]
+
+**Type II diabetes**
+- 2: [Weak correlation]
+
+**diabetes**
+- 2: [Weak correlation]
+
+**obesity**
+- 3: [Related]
+
+**ckd**
+- 3: [Related]
+
+**cad**
+- 3: [Related]
+
+**atrial_fibrillation**
+- 2: [Weak correlation]
+
+**puerperium**
+- 1: [Extremely weakly correlated]
+
+**heart_failure**
+- 3: [Related]
+
+**renal_failure**
+- 3: [Related]
+
+**liver_failure**
+- 2: [Weak correlation]
+
+**aspiration_pneumonia**
+- 3: [Related]
+
+**hematologic_malignancy**
+- 3: [Related]
+
+**diabetes_with_cc**
+- 2: [Weak correlation]
+
+**diabetes_without_cc**
+- 2: [Weak correlation]
+
+**myocardial_infarct**
+- 3: [Related]
+
+**congestive_heart_failure**
+- 3: [Related]
+
+**peripheral_vascular_disease**
+- 2: [Weak correlation]
+
+**cerebrovascular_disease**
+- 2: [Weak correlation]
+
+**dementia**
+- 2: [Weak correlation]
+
+**chronic_pulmonary_disease**
+- 4: [Strongly correlated]
+
+**rheumatic_disease**
+- 2: [Weak correlation]
+
+**peptic_ulcer_disease**
+- 2: [Weak correlation]
+
+**mild_liver_disease**
+- 2: [Weak correlation]
+
+**paraplegia**
+- 1: [Extremely weakly correlated]
+
+**renal_disease**
+- 3: [Related]
+
+**malignant_cancer**
+- 4: [Strongly correlated]
+
+**severe_liver_disease**
+- 2: [Weak correlation]
+
+**metastatic_solid_tumor**
+- 4: [Strongly correlated]
+
+**aids**
+- 2: [Weak correlation]
+
+**height**
+- 2: [Weak correlation]
+
+**aki_stage**
+- 3: [Related]
+
+**gcs_icu_1st**
+- 2: [Weak correlation]
+
+**gcs_the hospitalization process_min**
+- 2: [Weak correlation]
+
+**gcs_icu24h_min**
+- 2: [Weak correlation]
+
+**apsiii**
+- 3: [Related]
+
+**sapsii**
+- 3: [Related]
+
+**lods**
+- 3: [Related]
+
+**oasis**
+- 3: [Related]
+
+**charlson**
+- 4: [Strongly correlated]
+
+**sirs**
+- 3: [Related]
+
+**apcheii**
+- 3: [Related]
+
+**sofa**
+- 3: [Related]
+
+**sofa_24_max**
+- 3: [Related]
+
+**sepsis3**
+- 3: [Related]
+
+**sepsis3_time**
+- 3: [Related]
+
+**sepsis3_icu24h**
+- 3: [Related]
+
+**bmi**
+- 3: [Related]
+
+**temperature**
+- 2: [Weak correlation]
+
+**heart_rate**
+- 2: [Weak correlation]
+
+**heart_rate_min_icu24h**
+- 2: [Weak correlation]
+
+**heart_rate_max_icu24h**
+- 2: [Weak correlation]
+
+**resp_rate**
+- 3: [Related]
+
+**resp_rate_min_icu24h**
+- 3: [Related]
+
+**resp_rate_max_icu24h**
+- 3: [Related]
+
+**sbp**
+- 2: [Weak correlation]
+
+**sbp_min_icu24h**
+- 2: [Weak correlation]
+
+**sbp_max_icu24h**
+- 2: [Weak correlation]
+
+**dbp**
+- 2: [Weak correlation]
+
+**dbp_min_icu24h**
+- 2: [Weak correlation]
+
+**dbp_max_icu24h**
+- 2: [Weak correlation]
+
+**mbp**
+- 2: [Weak correlation]
+
+**mbp_min_icu24h**
+- 2: [Weak correlation]
+
+**mbp_max_icu24h**
+- 2: [Weak correlation]
+
+**cvp_icu_d1_1st**
+- 2: [Weak correlation]
+
+**icp_icu_d1_1st**
+- 2: [Weak correlation]
+
+**spo2**
+- 3: [Related]
+
+**ph**
+- 3: [Related]
+
+**so2**
+- 3: [Related]
+
+**po2**
+- 3: [Related]
+
+**pco2**
+- 3: [Related]
+
+**fio2_chartevents**
+- 3: [Related]
+
+**aado2_calc**
+- 3: [Related]
+
+**pao2fio2ratio**
+- 3: [Related]
+
+**baseexcess**
+- 2: [Weak correlation]
+
+**lactate**
+- 3: [Related]
+
+**lactate_min_icu24h**
+- 3: [Related]
+
+**lactate_max_icu24h**
+- 3: [Related]
+
+**lactate_hosp_first**
+- 3: [Related]
+
+**lactate_hosp_last**
+- 3: [Related]
+
+**totalco2**
+- 2: [Weak correlation]
+
+**crp**
+- 3: [Related]
+
+**crp_max**
+- 3: [Related]
+
+**wbc**
+- 3: [Related]
+
+**basophils_abs**
+- 2: [Weak correlation]
+
+**eosinophils_abs**
+- 2: [Weak correlation]
+
+**lymphocytes_abs**
+- 2: [Weak correlation]
+
+**lymphocytes_abs_min**
+- 2: [Weak correlation]
+
+**lymphocytes_abs_max**
+- 2: [Weak correlation]
+
+**monocytes_abs**
+- 2: [Weak correlation]
+
+**neutrophils_abs**
+- 3: [Related]
+
+**basophils**
+- 2: [Weak correlation]
+
+**eosinophils**
+- 2: [Weak correlation]
+
+**lymphocytes**
+- 2: [Weak correlation]
+
+**monocytes**
+- 2: [Weak correlation]
+
+**neutrophils**
+- 3: [Related]
+
+**hemoglobin**
+- 3: [Related]
+
+**hemoglobin_min**
+- 3: [Related]
+
+**hemoglobin_max**
+- 3: [Related]
+
+**hematocrit**
+- 3: [Related]
+
+**mch**
+- 2: [Weak correlation]
+
+**mchc**
+- 2: [Weak correlation]
+
+**mcv**
+- 2: [Weak correlation]
+
+**platelet**
+- 3: [Related]
+
+**platelet_min**
+- 3: [Related]
+
+**platelet_max**
+- 3: [Related]
+
+**rbc**
+- 3: [Related]
+
+**rdw**
+- 3: [Related]
+
+**rdw_max**
+- 3: [Related]
+
+**albumin**
+- 3: [Related]
+
+**albumin_min**
+- 3: [Related]
+
+**albumin_max**
+- 3: [Related]
+
+**globulin**
+- 2: [Weak correlation]
+
+**total_protein**
+- 2: [Weak correlation]
+
+**hdl**
+- 2: [Weak correlation]
+
+**ldl**
+- 2: [Weak correlation]
+
+**triglycerides**
+- 2: [Weak correlation]
+
+**total cholesterol**
+- 2: [Weak correlation]
+
+**creatinine**
+- 3: [Related]
+
+**bun**
+- 3: [Related]
+
+**bun_max**
+- 3: [Related]
+
+**urine_output_first24h**
+- 2: [Weak correlation]
+
+**uric_acid**
+- 2: [Weak correlation]
+
+**potassium**
+- 2: [Weak correlation]
+
+**sodium**
+- 2: [Weak correlation]
+
+**chloride**
+- 2: [Weak correlation]
+
+**calcium**
+- 2: [Weak correlation]
+
+**mg**
+- 2: [Weak correlation]
+
+**p**
+- 2: [Weak correlation]
+
+**aniongap**
+- 2: [Weak correlation]
+
+**bicarbonate**
+- 2: [Weak correlation]
+
+**glucose**
+- 2: [Weak correlation]
+
+**glucose_min_icu24h**
+- 2: [Weak correlation]
+
+**glucose_max_icu24h**
+- 2: [Weak correlation]
+
+**glucose_avg_icu24h**
+- 2: [Weak correlation]
+
+**glucose_min_during_hosp**
+- 2: [Weak correlation]
+
+**glucose_max_during_hosp**
+- 2: [Weak correlation]
+
+**hemoglobin_a1c**
+- 2: [Weak correlation]
+
+**troponin_t**
+- 2: [Weak correlation]
+
+**ck**
+- 2: [Weak correlation]
+
+**ck_mb**
+- 2: [Weak correlation]
+
+**ntprobnp**
+- 2: [Weak correlation]
+
+**alt**
+- 2: [Weak correlation]
+
+**ast**
+- 2: [Weak correlation]
+
+**ggt**
+- 2: [Weak correlation]
+
+**alp**
+- 2: [Weak correlation]
+
+**bilirubin_direct**
+- 2: [Weak correlation]
+
+**bilirubin_indirect**
+- 2: [Weak correlation]
+
+**bilirubin_total**
+- 2: [Weak correlation]
+
+**ld_ldh**
+- 2: [Weak correlation]
+
+**ld_ldh_max**
+- 2: [Weak correlation]
+
+**amylase**
+- 2: [Weak correlation]
+
+**pt**
+- 2: [Weak correlation]
+
+**inr**
+- 2: [Weak correlation]
+
+**ptt**
+- 2: [Weak correlation]
+
+**thrombin**
+- 2: [Weak correlation]
+
+**fibrinogen**
+- 2: [Weak correlation]
+
+**d_dimer**
+- 2: [Weak correlation]
+
+**t3**
+- 2: [Weak correlation]
+
+**t4**
+- 2: [Weak correlation]
+
+**ft4**
+- 2: [Weak correlation]
+
+**tsh**
+- 2: [Weak correlation]
+
+**t4index**
+- 2: [Weak correlation]
+
+**tgab**
+- 2: [Weak correlation]
+
+**tpoab**
+- 2: [Weak correlation]
+
+**tg**
+- 2: [Weak correlation]
+
+**ventilation_icu_24h**
+- 3: [Related]
+
+**rrt_icu_24h**
+- 3: [Related]
+
+**crrt_icu_24h**
+- 3: [Related]
+
+**invasive_line_icu_24h**
+- 2: [Weak correlation]
+
+**vasoactive_agent_icu_24h**
+- 2: [Weak correlation]
+
+**dopamine_icu_24h**
+- 2: [Weak correlation]
+
+**dobutamine_icu_24h**
+- 2: [Weak correlation]
+
+**epinephrine_icu_24h**
+- 2: [Weak correlation]
+
+**norepinephrine_icu_24h**
+- 2: [Weak correlation]
+
+**phenylephrine_icu_24h**
+- 2: [Weak correlation]
+
+**vasopressin_icu_24h**
+- 2: [Weak correlation]
+
+**milrinone_icu_24h**
+- 2: [Weak correlation]
+
+**microbiology_org_positive_first_icu24h**
+- 2: [Weak correlation]
+
+**microbiology_specimens_positive_first_icu24h**
+- 2: [Weak correlation]
+
+**antibiotic_first_icu24h**
+- 2: [Weak correlation]
+
+**antibiotics_icu24h**
+- 2: [Weak correlation]
+
+**specimens_icu24h**
+- 2: [Weak correlation]
+
+**invasivevent_hour_icu_24h**
+- 2: [Weak correlation]
+
+**iabp_icu_24h**
+- 2: [Weak correlation]
+
+**rbc_input_icu_24h**
+- 2: [Weak correlation]
+
+**plt_input_icu_24h**
+- 2: [Weak correlation]
+
+**plasma_input_icu_24h**
+- 2: [Weak correlation]
+
+**ne_amount_icu_24h**
+- 2: [Weak correlation]
+
+**dopamine_amount_icu_24h**
+- 2: [Weak correlation]
+
+**dobutamine_amount_icu_24h**
+- 2: [Weak correlation]
+
+**epinephrine_amount_icu_24h**
+- 2: [Weak correlation]
+
+**hormone_icu_24h**
+- 2: [Weak correlation]
+
+**enoxaparin_icu_24h**
+- 2: [Weak correlation]
+
+**ventilation_during_hospitalization**
+- 3: [Related]
+
+**rrt_during_hospitalization**
+- 3: [Related]
+
+**crrt_during_hospitalization**
+- 3: [Related]
+
+**invasive_line_during_hospitalization**
+- 2: [Weak correlation]
+
+**vasoactive_agent_during_hospitalization**
+- 2: [Weak correlation]
+
+**dopamine_during_hospitalization**
+- 2: [Weak correlation]
+
+**dobutamine_during_hospitalization**
+- 2: [Weak correlation]
+
+**epinephrine_during_hospitalization**
+- 2: [Weak correlation]
+
+**norepinephrine_during_hospitalization**
+- 2: [Weak correlation]
+
+**phenylephrine_during_hospitalization**
+- 2: [Weak correlation]
+
+**vasopressin_during_hospitalization**
+- 2: [Weak correlation]
+
+**milrinone_during_hospitalization**
+- 2: [Weak correlation]
+
+**microbiology_org_positive_first_during_hospitalization**
+- 2: [Weak correlation]
+
+**microbiology_specimens_positive_first_during_hospitalization**
+- 2: [Weak correlation]
+
+**antibiotic_first_during_hospitalization**
+- 2: [Weak correlation]
+
+**antibiotics_during_hospitalization**
+- 2: [Weak correlation]
+
+**specimens_during_hospitalization**
+- 2: [Weak correlation]
+
+**invasivevent_hour_during_hospitalization**
+- 2: [Weak correlation]
+
+**iabp_during_hospitalization**
+- 2: [Weak correlation].
+
+**rbc_input_during_hospitalization**
+- 2: [Weak correlation]
+
+**plt_input_during_hospitalization**
+- 2: [Weak correlation]
+
+**plasma_input_during_hospitalization**
+- 2: [Weak correlation]
+
+**ne_amount_during_hospitalization**
+- 2: [Weak correlation]
+
+**dopamine_amount_during_hospitalization**
+- 2: [Weak correlation]
+
+**dobutamine_amount_during_hospitalization**
+- 2: [Weak correlation]
+
+**epinephrine_amount_during_hospitalization**
+- 2: [Weak correlation]
+
+**hormone_during_hospitalization**
+- 2: [Weak correlation]
+
+**enoxaparin_during_hospitalization**
+- 2: [Weak correlation]
