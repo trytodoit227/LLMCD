@@ -55,3 +55,5 @@ The experimental data are located under the DATA folder.
 ```
 python deal_data.py
 ```
+## Reference
+"Causal Discovery through Synergizing Large Language Model and Data-Driven Reasoning", KDD2025
