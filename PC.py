@@ -507,7 +507,7 @@ def pc_alg(data: ndarray,
             mblist = GetFMB(GRAPH,FACTOR_list)
             indices = [FACTOR_list.index(x) for x in mblist]
             try:
-                new_ratio,new_data= evaluate_models(data,data[:, 19],indices,train_indices, data_test) #10/19 for huaxi ,asia 3, child -2
+                new_ratio,new_data= evaluate_models(data,data[:, 10],indices,train_indices, data_test) #10/19 for huaxi ,asia 3, child -2
                 print('iteration:',iteration,'new_ratio:',indices,new_ratio,new_data.shape[0])
 
                 data=new_data
@@ -928,5 +928,6 @@ def matrix_diff(cg1: CausalGraph, cg2: CausalGraph) -> (float, List[Tuple[int, i
                 diff_ls.append((i, j))
                 count += 1
     return count / 2, diff_ls
+
 
 
