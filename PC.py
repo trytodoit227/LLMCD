@@ -310,7 +310,7 @@ def pc_alg(data: ndarray,
         indep_test = CIT(data, chisq, **kwargs)
         print('data.shape:',data.shape,iteration)
 
-        cg_1 = SkeletonDiscovery.skeleton_discovery(data, alpha, indep_test, stable,Label_list,FACTOR_list,
+        cg_1 = SkeletonDiscovery.skeleton_discovery(data, alpha, indep_test, stable,FACTOR_list,
                                                     background_knowledge=background_knowledge, verbose=verbose,
                                                     show_progress=show_progress, node_names=node_names,var_names=VARI_name)
         if background_knowledge is not None:
@@ -476,7 +476,7 @@ def pc_alg(data: ndarray,
             #         cg_new.G.add_edge(Edge(cg_new.G.nodes[FACTOR_list.index(single_edge[0])], cg_new.G.nodes[FACTOR_list.index(single_edge[1])], Endpoint.TAIL, Endpoint.ARROW))
             #     elif max_key==single_edge[1]+" CAUSES "+single_edge[0]:
             #         element_to_add = single_edge[1]
-            #         # 检查 FACTOR_list[single_edge[0]]
+            #         # FACTOR_list[single_edge[0]]
             #         if single_edge[0] not in EDge_jsons:
             #             EDge_jsons[single_edge[0]] = {"parents": []}
             #         if element_to_add not in EDge_jsons[single_edge[0]]["parents"]:
@@ -928,4 +928,5 @@ def matrix_diff(cg1: CausalGraph, cg2: CausalGraph) -> (float, List[Tuple[int, i
                 diff_ls.append((i, j))
                 count += 1
     return count / 2, diff_ls
+
 
