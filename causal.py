@@ -728,7 +728,7 @@ def clear_default_edges(causal_graph):
 
 
 
-def GetFMB(G, node_name, target_node=19):  # for huaxi: 10/19; for mimic: 17,asia 3,child -2
+def GetFMB(G, node_name, target_node=10):  # for huaxi: 10/19; for mimic: 17,asia 3,child -2
     mbset = []
     d = G.shape[0]
     pa = lambda x: [idx for idx in range(d) if G[idx, x] not in [1, 0]]
@@ -758,7 +758,7 @@ def evaluate_models(data, labels, selected_columns, train_indices, test_data):
     X_train = X[train_indices]
     X_test = test_data[:, selected_columns]
     y_train = y[train_indices]
-    y_test = test_data[:, 19]  # 10/19 for huaxi,mimic-iv 17,asia 3,child -2
+    y_test = test_data[:, 10]  # 10/19 for huaxi,mimic-iv 17,asia 3,child -2
 
 
 
@@ -905,3 +905,4 @@ def clean_json_string1(s):
         conf = None
 
     return p, conf
+
