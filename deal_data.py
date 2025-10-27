@@ -30,12 +30,12 @@ adj_mat = dag['adjmat'].to_numpy().astype(int)
 file_bin = './variable_filtering.txt'#for huaxi
 
 selected_data, selected_indices = extract_selected_data(file_bin)
-ids_to_remove = [23,28,36]#FOR NODE 16 [11,14] FOR NODE 52 [23,28,36] for mimic []
+ids_to_remove = [11,14]#FOR NODE 16 [11,14] FOR NODE 52 [23,28,36] for mimic []
 Selected_indices = [item for i, item in enumerate(selected_indices) if i not in ids_to_remove]
 print("Selected Data List:", selected_data)
 print("Selected Indices:", Selected_indices)
 
-var_name=VAR_NAMES_AND_DESC['huaxi51']#Load the variable descriptions from the dataset.
+var_name=VAR_NAMES_AND_DESC['huaxi16']#Load the variable descriptions from the dataset.
 var_list = []
 for var in var_name:
     causal_var = var_name[var]
@@ -131,6 +131,7 @@ predicted_adj_mat = create_adjacency_matrix(cg[0],len(Factor_list))
 metrics = compute_metrics(adj_mat,predicted_adj_mat)
 pdy = GraphUtils.to_pydot(cg[0].G, labels=Factor_list)
 pdy.write_png(r'bin_1006mpc3few{}03.png'.format('0.001'))
+
 
 
 
