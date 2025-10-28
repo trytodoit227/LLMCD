@@ -37,6 +37,7 @@ The experimental data are located under the DATA folder.
 - asia.bif and child.bif store the causal graph information of the benchmark datasets
 - The .csv file stores the sample information in the benchmark dataset, that is, the values of the variables.
 - The .xlsx file stores the MIMIC data.
+-  The processed WCHSU data can be accessed through this [link](https://docs.google.com/spreadsheets/d/1t3LeQlA53QhzpaOVdZ894sU_SWiYYv4n/edit?usp=sharing&ouid=110872687347041304938&rtpof=true&sd=true).
 
 ### Files
 - `MIMIC_variable_filtering` file contains the correlations between the initial variables of MIMIC and the target variable (lung cancer variable).
