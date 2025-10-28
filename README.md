@@ -47,7 +47,7 @@ The experimental data are located under the DATA folder.
 
 ### Pre-experiment operations
 
-- Installing the causal-learn library
+- Installing the causal-learn library.
 - Replace the `pc.py` file in the `causallearn/search/ConstraintBased` directory with the `pc.py` file. Place the `causal.py` file under the `causallearn/utils` directory. Replace the `SkeletonDiscovery.py` file in the `causallearn/utils/PCUtils` directory with the `SkeletonDiscovery.py` file.
 
 
