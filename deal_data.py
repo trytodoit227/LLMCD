@@ -44,11 +44,11 @@ for var in var_name:
 alpha =0.05
 
 # file_path_WCHSU = './output_mimic.xlsx'  # for mimic
-file_path_WCHSU = './output-bin-selected.xlsx'
+file_path_WCHSU = './wchsu16.xlsx'
 df = pd.read_excel(file_path_WCHSU, nrows=100)# Just for extracting variable names.
 
 # # for WCHSU
-factor_meaning = df.iloc[0].tolist()
+factor_meaning = df.columns.tolist()
 factor_meaning= [s.replace(":", "") for s in factor_meaning]
 Factor_list = [factor_meaning[u] for u in Selected_indices]
 
@@ -83,12 +83,12 @@ Label_name = [label_name[j] for j in Selected_indices]
 
 # ##for WCHSU
 def load_data(file_path, selected_indices):
-    df = pd.read_excel(file_path, nrows=200000)
-    Data = df.iloc[1:, selected_indices]
+    df = pd.read_excel(file_path, nrows=160000)
+    Data = df.iloc[0:, selected_indices]
     Data2 = Data.to_numpy(dtype=float)
     # Ablation experiments based on sample data size
     # Randomly select K rows from the data.
-    selected_rows = np.random.choice(Data2.shape[0], size=200000, replace=False)
+    selected_rows = np.random.choice(Data2.shape[0], size=160000, replace=False)
     New_data = Data2[selected_rows, :]
     del Data
     return New_data
@@ -131,6 +131,7 @@ predicted_adj_mat = create_adjacency_matrix(cg[0],len(Factor_list))
 metrics = compute_metrics(adj_mat,predicted_adj_mat)
 pdy = GraphUtils.to_pydot(cg[0].G, labels=Factor_list)
 pdy.write_png(r'bin_1006mpc3few{}03.png'.format('0.001'))
+
 
 
 
