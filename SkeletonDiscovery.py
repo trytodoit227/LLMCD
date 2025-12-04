@@ -12,7 +12,7 @@ from causallearn.utils.PCUtils.BackgroundKnowledge import BackgroundKnowledge
 from causallearn.utils.PCUtils.Helper import append_value
 from causallearn.utils.cit import CIT
 
-from causallearn.utils.causal_EHR import propt_test,individual_test
+from causallearn.utils.causal import propt_test,individual_test
 
 def skeleton_discovery(
     data: ndarray,
@@ -168,3 +168,4 @@ def skeleton_discovery(
         pbar.close()
 
     return cg
+
